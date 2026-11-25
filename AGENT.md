@@ -1,0 +1,3 @@
+# AGENT.md
+
+This entry is a single-sentence childhood memory for the "Make the AI Judge Feel Nostalgic" bounty: "My mother ironed my school shirts at midnight, and the hot cotton hissed like a small animal; now I iron my daughter's clothes at the same hour, though she no longer needs them pressed." The program, `main.ts`, keeps the line in one constant, validates it in a separate function (non-empty after trimming, 1–280 characters), creates `/output` if needed, writes the line to `/output/entry.txt` as UTF-8 with no trailing newline, reads it back to confirm it matches, and prints the line with its character and byte counts.
